@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+    padding: 20px;
+
+    background-color: #f7f7f7;
+}
+
+.form  label {
+   display: flex;
+   flex-direction: column;
+
+   font-size: 20px;
+   color: #555555;
+}
+
+.form  input {
+    font-size: 16px;
+
+    height: 40px;
+    padding-left: 10px;
+
+    border: 1px solid #ccc;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.form  button {
+    color: #fff;
+
+    height: 40px;
+    padding: 0 10px;
+
+    background: #43d1af;
+    border: 0;
+}
+
+/* Таблица */
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table  tr > *{
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.table tr[class^="table"] > *:first-child {
+    display: none;
+}
+
+
+.title_table th{
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    line-height: 1.4;
+    text-transform: uppercase;
+} 
+
+.table_column td {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #999999;
+    font-weight: bold;
+    text-align: center;
+}
+
+.result th {
+    font-size: 24px;
+    color: white;
+
+    background-color: #43d1af;
+}
+
+.result td {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Подсказака */
+
+.info {
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px;
+    
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 10px 10px 10px 0;
+    background-color: #fff;
+}
+  
+.info p {
+    margin: 0;
+}
+
+.info p + p{
+    margin-top: 10px;
+}
+
+.data {
+    text-align: right;
+}

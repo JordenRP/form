@@ -1,0 +1,4 @@
+1 :: Apple :: iPhone 6S 32Gb :: 35000 :: 3 
+2 :: Apple :: iPhone SE 16Gb :: 30000 :: 6 
+3 :: Samsung :: Galaxy S7 32Gb :: 35000 :: 3 
+4 :: Samsung :: Galaxy S6 Edge 32Gb :: 30000 :: 2
